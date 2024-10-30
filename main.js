@@ -4,9 +4,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
             toleft = () => {
                 slide.style.left = "-100%"
-                slide.style.transition = "left 1.5s"
+                slide.style.transition = "left 2s"
 
-                setTimeout(z , 1501);
+                setTimeout(z , 2001);
             }
             const z = () => {
                 slide.style.transition = "none";
